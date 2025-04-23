@@ -40,4 +40,4 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <button type="submit">Salvar</button>
 </form>
 
-<?php require_once 'rodape.php'; ?>
+<?php include 'rodape.php'; ?>

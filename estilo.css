@@ -1,0 +1,144 @@
+/* Configurações gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #c62828; /* vermelho escuro */
+    color: white;
+    padding: 15px 30px;
+    text-align: left;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 8px 8px 0 0;
+}
+
+/* Navegação */
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+    font-size: 16px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Área principal */
+main {
+    background-color: white;
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 0 0 8px 8px;
+    max-width: 900px;
+    margin: 20px auto;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #c62828;
+    color: white;
+    border-radius: 8px;
+}
+
+/* Tabela */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #eee;
+}
+
+/* Botões */
+button, .btn-salvar, .btn-cancelar {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+button, .btn-salvar {
+    background-color: #4CAF50; /* verde */
+    color: white;
+    border: none;
+}
+
+.btn-cancelar {
+    background-color: #f44336; /* vermelho */
+    color: white;
+    border: none;
+}
+
+button:hover, .btn-salvar:hover, .btn-cancelar:hover {
+    opacity: 0.8;
+}
+
+/* Formulários */
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Ajustes para mensagens ou textos */
+h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Links de ação */
+a {
+    color: #c62828;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
